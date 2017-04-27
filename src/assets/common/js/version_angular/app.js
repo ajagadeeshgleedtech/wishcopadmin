@@ -80,6 +80,21 @@ angular.module('cleanUI', [
         }); 
 
         /////////////////////////////////////////////////////////////
+        //Sales
+        $routeProvider.when('/sales-list', {
+            templateUrl: 'sales-list/sales-list.html',
+            controller: 'salesListCtrl'
+        }); 
+
+        /////////////////////////////////////////////////////////////
+        //Products
+        $routeProvider.when('/products-list', {
+            templateUrl: 'products-list/products-list.html',
+            controller: 'productsListCtrl'
+        }); 
+
+
+        /////////////////////////////////////////////////////////////
         // Charts
         $routeProvider.when('/charts/c3', {
             templateUrl: 'charts/c3.html'

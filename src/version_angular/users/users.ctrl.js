@@ -6,8 +6,7 @@ app.controller('usersListCtrl',["$location", "$scope", "$rootScope","usersServic
 
  usersServiceMethods.getUsersList().then(function(response) {
             $scope.userList = response.data;
-            // console.log($scope.userList);
-
+         
         });
  
               
